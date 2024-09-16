@@ -36,7 +36,7 @@ const HoverMap = () => {
   };
 
   return (
-    <MapContainer center={[22.2587, 71.1924]} zoom={7} style={{ height: '300px', width: '100%' }}>
+    <MapContainer center={[22.2587, 71.1924]} zoom={7} style={{ height: '500px', width: '50%' }}>
       {/* Load OpenStreetMap tiles */}
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
