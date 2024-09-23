@@ -75,15 +75,6 @@ const MapComponent = () => {
 
       <Polyline positions={points} color="blue" />
 
-      {/* <div
-        className="custom-circle"
-        style={{
-          position: "absolute",
-          left: `${(circlePosition[1] + 180) / 360 * 100}%`,
-          top: `${(1 - (circlePosition[0] + 90) / 180) * 100}%`,
-          transform: "translate(-50%, -50%)" // Center the circle
-        }}
-      /> */}
       
       <Circle
         center={circlePosition}
