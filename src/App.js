@@ -1,4 +1,5 @@
 import './App.css';
+import MonthYearPicker from './date';
 import HoverMap from './hovermap';
 import LeafletMap from './map';
 
@@ -7,7 +8,8 @@ function App() {
     <div className="App">
     <LeafletMap />
     <br/><br/><br/>
-    <HoverMap />
+    {/* <HoverMap /> */}
+    {/* <MonthYearPicker /> */}
     </div>
   );
 }
