@@ -2,6 +2,7 @@ import './App.css';
 import MonthYearPicker from './date';
 import HoverMap from './hovermap';
 import LeafletMap from './map';
+import CountrySearch from './search';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <br/><br/><br/>
     {/* <HoverMap /> */}
     {/* <MonthYearPicker /> */}
+    {/* <CountrySearch /> */}
     </div>
   );
 }
